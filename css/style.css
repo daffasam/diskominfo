@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.iconuser {
+    background-color: #1671B6;
+    color: #FFFFFF;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+/* index.html */
+
+
+
+.loginplace .container {
+    margin-top: 6%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.login-item {
+    width: 50%;
+    height: 26rem;
+}
+
+.login-left {
+    background-color: #FFFFFF;
+    border-radius: 7px 0 0 7px;   
+}
+
+.login-left .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.login-left img {
+    width: 360px;
+    height: 100px;
+    margin: 70px 0 40px 0;
+}
+
+.login-left label {
+    font-size: 24px;
+    font-weight: 500;
+    color: #4A4A4A;
+
+}
+
+.title-login {
+    margin-bottom: 25px;
+}
+
+.title-login label {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.login-right {
+    color: #FFFFFF;
+    background-color: #2DC66D;
+    border-radius: 0 7px 7px 0;
+}
+
+.login-right .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login-right-item {
+    margin: 10px 0;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-right .submit {
+    margin-top: 35px;
+}
+
+.form {
+    border-radius: 20px;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    margin-top: 8px;
+}
+
+.submitbutton {
+    background-color: #F7C702;
+    color: #FFFFFF;
+    font-weight: 500;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+/* dataaplikasi.html */
+
+.sidebar-brand img {
+    width: 190px;
+    height: 50px;
+}
+
+.sidebar {
+    font-size: 16px;
+}
+
+.navbar-brand img {
+    width: 190px;
+    height: 50px;
+}
+
+/* table data aplikasi dan akun */
+
+.action {
+    width:13%;
+    
+}
+
+.action button {
+    margin: 0 5px;
+}
+
+.action-item {
+    margin: 0 6px;
+}
+
+th {
+    text-align: center;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-header-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-header-item .item {
+    margin: 0 4px;
+}
+
+.item1 {
+    width: 45%;
+}
+
+.item2 {
+    width: 65%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-header .form-search button {
+    border-radius: 4px 0 0 4px;
+}
+
+.card-header .form-search input {
+    border-radius: 0 4px 4px 0;
+}
+
+.tombol {
+    padding: 4px 8px;
+}
+
+.card {
+    margin-top: 60px;
+}
+
+.card-body .skor{
+    text-align: center;
+}   
+
+.modal {
+    text-align: left;
+}
+
+.opd {
+    margin-top: 7px;
+}
+
+.penilaian table {
+    color: #4A4A4A;
+}
+
+.penilaian thead {
+    background-color: #1671B6;
+    color: #FFFFFF;
+}
+
+.question {
+    width: 60%;
+}
+.penilaianapp {
+    width: 40%;
+    margin-left: 16px;
+}
+
+.cb-item ul {
+    margin: 0;
+    padding: 0;
+}
+
+.skorpenilaian {
+
+}
+
+.penilaian {
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+}
+
+.itemm {
+    display: flex;
+    flex-direction: row;
+}
+
+.hasil {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skorpenilaian {
+    background-color: #1671B6;
+    padding: 14px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+
+.form-item label {
+    color: #FFFFFF;
+}
+
+.hasil input {
+    text-align: center;
+    outline: none;
+    width: 90%;
+    height: 80px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.itemm .submit {
+    margin: 20px 0 10px 8px;
+    background-color: #2DC66D;
+    color: #FFFFFF;
+    width: 95%;
+    padding: 7px 0;
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-item .lanjutkan {
+    margin: 20px 0 10px 0;
+    background-color: #F7C702;
+    color: #4A4A4A;
+    width: 100%;
+    padding: 7px 0;
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
